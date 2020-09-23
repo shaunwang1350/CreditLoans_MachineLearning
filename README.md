@@ -24,7 +24,7 @@ Credit risk is an inherently unbalanced classification problem, as the number of
 * sklearn
 * imblearn
 
-## Analysis
+## Results
 
 #### Oversampling with RandomOverSampler and SMOTE algorithms: 
 
@@ -34,6 +34,7 @@ Credit risk is an inherently unbalanced classification problem, as the number of
 | high_risk   | 0.01 | 0.60 | 0.67 | 0.02 | 0.64 | 0.40 | 101   |
 | low_risk    | 1.00 | 0.67 | 0.60 | 0.80 | 0.64 | 0.41 | 17104 |
 | avg / total | 0.99 | 0.67 | 0.60 | 0.80 | 0.64 | 0.41 | 17205 |
+
 Balanced Accuracy Score: 0.608
 
 #### Undersampling with Cluster Centroids algorithms: 
@@ -44,6 +45,7 @@ Balanced Accuracy Score: 0.608
 | high_risk   | 0.01 | 0.65 | 0.42 | 0.01 | 0.52 | 0.28 | 101   |
 | low_risk    | 1.00 | 0.42 | 0.65 | 0.59 | 0.52 | 0.27 | 17104 |
 | avg / total | 0.99 | 0.42 | 0.65 | 0.58 | 0.52 | 0.27 | 17205 |
+
 Balanced Accuracy Score: 0.534
 
 #### Combination approach with SMOTEEN algorithms: 
@@ -54,6 +56,9 @@ Balanced Accuracy Score: 0.534
 | high_risk   | 0.01 | 0.77 | 0.53 | 0.02 | 0.64 | 0.42 | 101   |
 | low_risk    | 1.00 | 0.53 | 0.77 | 0.69 | 0.64 | 0.40 | 17104 |
 | avg / total | 0.99 | 0.57 | 0.77 | 0.72 | 0.64 | 0.40 | 17205 |
+
 Balanced Accuracy Score: 0.650
+
+## Analysis
 
 ##  Recommendation on ML model
