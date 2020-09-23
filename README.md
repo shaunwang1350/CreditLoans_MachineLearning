@@ -52,10 +52,11 @@ Precision TP/(TP+FP): 0.65
 
 #### Combination approach with SMOTEEN algorithms:
 
-|             | pre  | rec  | 
+**Confusion Matrix**
+|             | Predicted True  | Predicted False | 
 |-------------|------|------|
-| high_risk   | 0.01 | 0.77 |
-| low_risk    | 1.00 | 0.53 |
+| Actually True | 0.01 | 0.77 |
+| Actually False | 1.00 | 0.53 |
 
 **imbalanced classification report**
 |             | pre  | rec  | spe  | f1   | geo  | iba  | sup   |
