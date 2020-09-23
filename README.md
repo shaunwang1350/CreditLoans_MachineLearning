@@ -10,14 +10,11 @@ Credit risk is an inherently unbalanced classification problem, as the number of
 * Oversample the data using the RandomOverSampler and SMOTE algorithms.
 * Undersample the data using the cluster centroids algorithm.
 * Use a combination approach with the SMOTEENN algorithm.
-* Evaluate the performance of machine learning models.
-* Calculate the balanced accuracy score.
-* Generate a confusion matrix.
 * Train a logistic regression classifier (from Scikit-learn) using the resampled data.
+* Evaluate the performance of machine learning models.
 * Calculate the balanced accuracy score using balanced_accuracy_score from sklearn.metrics.
-* Generate a confusion_matrix.
+* Generate a confusion matrix.
 * Print the classification report (classification_report_imbalanced from imblearn.metrics).
-* For the BalancedRandomForestClassifier, print the feature importance, sorted in descending order (from most to least important feature), along with the feature score.
 * Write an analysis of the models’ performance. Describe the precision and recall scores, as well as the balanced accuracy score.
 
 ## Technologies Used
