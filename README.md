@@ -5,6 +5,7 @@ Credit risk is an inherently unbalanced classification problem, as the number of
 
 ## Objectives
 * Extract credit data
+* Encode Obj Data Types into Int/Float Data Types through  LabelEncoder from sklearn.preprocessing
 * Implement machine learning models. Train the model and generate predictions.
 * Use resampling to attempt to address class imbalance.
 * Oversample the data using the RandomOverSampler and SMOTE algorithms.
@@ -24,5 +25,28 @@ Credit risk is an inherently unbalanced classification problem, as the number of
 * imblearn
 
 ## Analysis
+
+                   pre       rec       spe        f1       geo       iba       sup
+
+  high_risk       0.01      0.64      0.57      0.02      0.61      0.37       101
+   low_risk       1.00      0.57      0.64      0.73      0.61      0.37     17104
+
+avg / total       0.99      0.57      0.64      0.72      0.61      0.37     17205
+
+                   pre       rec       spe        f1       geo       iba       sup
+
+  high_risk       0.01      0.65      0.42      0.01      0.52      0.28       101
+   low_risk       1.00      0.42      0.65      0.59      0.52      0.27     17104
+
+avg / total       0.99      0.42      0.65      0.58      0.52      0.27     17205
+
+
+                   pre       rec       spe        f1       geo       iba       sup
+
+  high_risk       0.01      0.77      0.53      0.02      0.64      0.42       101
+   low_risk       1.00      0.53      0.77      0.69      0.64      0.40     17104
+
+avg / total       0.99      0.53      0.77      0.69      0.64      0.40     17205
+
 
 ##  Recommendation on ML model
