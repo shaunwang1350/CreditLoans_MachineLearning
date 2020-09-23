@@ -36,6 +36,7 @@ Credit risk is an inherently unbalanced classification problem, as the number of
 | avg / total | 0.99 | 0.67 | 0.60 | 0.80 | 0.64 | 0.41 | 17205 |
 
 Balanced Accuracy Score: 0.608
+Precision TP/(TP+FP): 0.70
 
 #### Undersampling with Cluster Centroids algorithms: 
 
@@ -47,8 +48,14 @@ Balanced Accuracy Score: 0.608
 | avg / total | 0.99 | 0.42 | 0.65 | 0.58 | 0.52 | 0.27 | 17205 |
 
 Balanced Accuracy Score: 0.534
+Precision TP/(TP+FP): 0.65
 
-#### Combination approach with SMOTEEN algorithms: 
+#### Combination approach with SMOTEEN algorithms:
+
+|             | pre  | rec  | 
+|-------------|------|------|
+| high_risk   | 0.01 | 0.77 |
+| low_risk    | 1.00 | 0.53 |
 
 **imbalanced classification report**
 |             | pre  | rec  | spe  | f1   | geo  | iba  | sup   |
@@ -58,6 +65,7 @@ Balanced Accuracy Score: 0.534
 | avg / total | 0.99 | 0.57 | 0.77 | 0.72 | 0.64 | 0.40 | 17205 |
 
 Balanced Accuracy Score: 0.650
+Precision TP/(TP+FP): 0.77
 
 ## Analysis
 
