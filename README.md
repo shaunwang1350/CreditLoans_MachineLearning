@@ -42,7 +42,8 @@ Credit risk is an inherently unbalanced classification problem, as the number of
 | avg / total | 0.99 | 0.67 | 0.60 | 0.80 | 0.64 | 0.41 | 17205 |
 
 Balanced Accuracy Score: 0.608
-Precision TP/(TP+FP): 0.70
+Precision TP/(TP+FP): 0.10
+Recall / Sensitivity TP/(TP+FN): 0.77
 
 ### Undersampling with Cluster Centroids algorithms: 
 
@@ -60,7 +61,8 @@ Precision TP/(TP+FP): 0.70
 | avg / total | 0.99 | 0.42 | 0.65 | 0.58 | 0.52 | 0.27 | 17205 |
 
 Balanced Accuracy Score: 0.534
-Precision TP/(TP+FP): 0.65
+Precision TP/(TP+FP): 0.006
+Recall / Sensitivity TP/(TP+FN): 0.77
 
 ### Combination approach with SMOTEEN algorithms:
 
@@ -78,8 +80,13 @@ Precision TP/(TP+FP): 0.65
 | avg / total | 0.99 | 0.57 | 0.77 | 0.72 | 0.64 | 0.40 | 17205 |
 
 Balanced Accuracy Score: 0.650
-Precision TP/(TP+FP): 0.77
+Precision TP/(TP+FP): 0.009
+Recall / Sensitivity TP/(TP+FN): 0.77
 
 ## Analysis
 
+While comparing the balanced accuracy scores, it is clear that the Combination approach with SMOTEEN algorithms has the highest accuracy. This is also true with the recall/sensitivity, which takes into consideration how the ML model is capable of correctly predicting the credit risk of a specific individual. That said, Oversampling with RandomOverSampler and SMOTE algorithms has a 0.001 higher likely hood of predicting the credit risk of specifical individual when measured against false negative cases. That said, with recall and accuracy much higher than other models, Combination approach with SMOTEEN algorithms seems to be the best approach.
+
 ##  Recommendation on ML model
+
+Even though we employed random over, under, and combined sampling appoarches to offset the small number of actual high-risk credit loans, there is no by-passing that high-risk credit loans is a minority data set within the population of the dataset. This has a big effect on the performance on our model even when we have employed techniques to offset this distribution. A recommendation would be to locate more high-risk credit loan data. The reason for this is so that the ML model can be better trained in identifying the loans through the input features. 
