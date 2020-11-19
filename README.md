@@ -1,7 +1,7 @@
 # Credit Loans Analysis with Machine Learning 
 ![Developement](https://img.shields.io/badge/progress-complete-green)
 ![reposize](https://img.shields.io/github/repo-size/shaunwang1350/CreditLoans_MachineLearning)
-![website](https://shaunwang1350.github.io/portfolio/)
+![githubfollows](https://img.shields.io/github/followers/shaunwang1350?style=social)
 <br >
 (RandomOverSampler, SMOTE, Cluster Centroids, SMOTEENN, BalancedRandomForestClassifier, EasyEnsembleClassifier)
 
