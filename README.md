@@ -1,6 +1,6 @@
 # Credit Loans Analysis with Machine Learning 
 ![Developement](https://img.shields.io/badge/progress-complete-green)
-<!br >
+<br >
 (RandomOverSampler, SMOTE, Cluster Centroids, SMOTEENN, BalancedRandomForestClassifier, EasyEnsembleClassifier)
 
 ## Background
