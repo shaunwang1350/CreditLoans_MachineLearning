@@ -1,7 +1,9 @@
 # Credit Loans Analysis with Machine Learning 
 ![Developement](https://img.shields.io/badge/progress-complete-green)
+![reposize](https://img.shields.io/github/repo-size/shaunwang1350/CreditLoans_MachineLearning)
 <br >
 (RandomOverSampler, SMOTE, Cluster Centroids, SMOTEENN, BalancedRandomForestClassifier, EasyEnsembleClassifier)
+
 
 ## Background
 Credit risk is an inherently unbalanced classification problem, as the number of good loans easily outnumber the number of risky loans. Therefore, I employed different techniques to train and evaluate models with unbalanced classes. I used imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling. I also evaluated the performance of these models and made a recommendation on whether they should be used to predict credit risk.
